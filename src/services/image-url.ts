@@ -9,3 +9,4 @@ const getCroppedUrl = (url: string) => {
 };
 
 export default getCroppedUrl;
+ 
