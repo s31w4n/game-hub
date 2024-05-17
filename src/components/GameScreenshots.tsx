@@ -19,6 +19,7 @@ const GameScreenshots = ({ gameId }: Props) => {
         md: 2,
       }}
       spacing={2}
+      marginTop={2}
     >
       {data?.results.map((file) => (
         <Image key={file.id} src={file.image} />
